@@ -56,7 +56,7 @@
     }
 
     .tittle-bold {
-        @apply maz-bold font-semibold text-5xl;
+        @apply maz-bold font-semibold text-3xl lg:text-2xl;
     }
 }
 
