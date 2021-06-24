@@ -1,5 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/**/*.html',
+    './src/**/*.js',
+  ],
   darkMode: false,
   theme: {
     extend: {
@@ -17,7 +20,7 @@ module.exports = {
           250: '#FAE0D8',
           450: '#FF794D'
         }
-      },     
+      },
     },
     stroke: theme => ({
       'black': theme('colors.black'),
@@ -32,8 +35,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      stroke: ['hover', 'group-hover' ,'focus'],
-      fill: ['hover', 'group-hover' ,'focus'],
+      stroke: ['hover', 'group-hover', 'focus'],
+      fill: ['hover', 'group-hover', 'focus'],
     },
   },
   plugins: [],
